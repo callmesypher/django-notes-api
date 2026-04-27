@@ -1,0 +1,59 @@
+
+# ======================
+# Virtual Environment
+# ======================
+env-*
+venv/
+.env/
+.envrc
+
+# ======================
+# Python cache
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ======================
+# Django stuff
+# ======================
+db.sqlite3
+*.log
+media/
+staticfiles/
+
+# Migrations (ONLY if you're resetting DB often)
+# migrations/__pycache__/
+# migrations/*.pyc
+
+# ======================
+# Environment variables
+# ======================
+.env
+
+# ======================
+# IDE / Editor
+# ======================
+.vscode/
+.idea/
+*.swp
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Testing / coverage
+# ======================
+htmlcov/
+.coverage
+.pytest_cache/
+
+# ======================
+# Django secret key (if stored locally)
+# ======================
+*.secret
